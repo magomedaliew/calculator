@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="calculator.MainPage" Background="Blue"
+             x:Name="AAA0" x:DataType="Grid" Shell.FlyoutHeight="0">
+
+ <Grid x:Name="AA00">
+  <Grid x:Name="AԹ01">
+   <Button x:Name="Թ101"/>
+   <Button x:Name="Թ102" Clicked="Թ_A_"/>
+   <Button x:Name="Թ103" Clicked="Թ_B_"/>
+   <Label x:Name="Թ104"/>
+  </Grid>
+  <Grid x:Name="AA01">
+   <Grid x:Name="A100">
+    <Button x:Name="A101" Clicked="A_AA"/>
+    <Button x:Name="A102" Clicked="A_AB"/>
+    <Button x:Name="A103" Clicked="A_AC"/>
+    <Button x:Name="A104" Clicked="A_AD"/>
+    <Button x:Name="A105" Clicked="A_AE">
+     <Button.ImageSource>
+      <FontImageSource Glyph="&#xE8EF;" FontFamily="MyIcons"/>
+     </Button.ImageSource>
+    </Button>
+    <Button x:Name="A106" Clicked="A_AF">
+     <Button.ImageSource>
+      <FontImageSource Glyph="&#xE75C;" FontFamily="MyIcons"/>
+     </Button.ImageSource>
+    </Button>
+    <Button x:Name="A107" Clicked="A_AG">
+     <Button.ImageSource>
+      <FontImageSource Glyph="&#xE8BC;" FontFamily="MyIcons"/>
+     </Button.ImageSource>
+    </Button>
+    <Button x:Name="A108" Clicked="A_AH">
+     <Button.ImageSource>
+      <FontImageSource Glyph="&#xE8C4;" FontFamily="MyIcons"/>
+     </Button.ImageSource>
+    </Button>
+    <Button x:Name="A109" Clicked="A_AI">
+     <Button.ImageSource>
+      <FontImageSource Glyph="&#xE781;" FontFamily="MyIcons"/>
+     </Button.ImageSource>
+    </Button>
+    <Button x:Name="A110" Clicked="A_AJ">
+     <Button.ImageSource>
+      <FontImageSource Glyph="&#xE8B9;" FontFamily="MyIcons"/>
+     </Button.ImageSource>
+    </Button>
+    <Button x:Name="A111" Clicked="A_AK">
+     <!--<Button.ImageSource>
+      <FontImageSource Glyph="&#xE80F;" FontFamily="MyIcons"/>
+     </Button.ImageSource>-->
+    </Button>
+    <Button x:Name="A112" Clicked="A_AL">
+     <!--<Button.ImageSource>
+      <FontImageSource Glyph="&#xE80F;" FontFamily="MyIcons"/>
+     </Button.ImageSource>-->
+    </Button>
+   </Grid>
+   <Grid x:Name="B100">
+    <ListView x:Name="B101"/>
+    <Rectangle x:Name="B102"/>
+    <ScrollView x:Name="Հ101">
+     <Grid x:Name="Ξ101"/>
+    </ScrollView>
+    <ScrollView x:Name="Հ102">
+     <Grid x:Name="Ξ102">
+     </Grid>
+    </ScrollView>
+    <ScrollView x:Name="Հ103">
+     <Grid x:Name="Ξ103"/>
+    </ScrollView>
+   </Grid>
+   <Grid x:Name="B200">
+    <Button x:Name="B201" Clicked="B_BA"/>
+    <Button x:Name="B202" Clicked="B_BB"/>
+    <Button x:Name="B203" Clicked="B_BC"/>
+    <Button x:Name="B204" Clicked="B_BD"/>
+    <Button x:Name="B205" Clicked="B_BE"/>
+    <Button x:Name="B206" Clicked="B_BF"/>
+    <Button x:Name="B207" Clicked="B_BG"/>
+    <Button x:Name="B208" Clicked="B_BH"/>
+    <Button x:Name="B209" Clicked="B_BI"/>
+    <Button x:Name="B210" Clicked="B_BJ"/>
+   </Grid>
+   <Grid x:Name="B300">
+    <!--PeriodenTabelle-->
+   </Grid>
+   <Grid x:Name="B400">
+    <Button x:Name="B401" Clicked="CABD"/>
+   </Grid>
+   <Grid x:Name="B500">
+    <Button x:Name="B501" Clicked="ABAA"/>
+    <Button x:Name="B502" Clicked="ABAB"/>
+    <Button x:Name="B503" Clicked="ABAC"/>
+    <Button x:Name="B504" Clicked="ABAD"/>
+    <Button x:Name="B505" Clicked="ABAE"/>
+    <Button x:Name="B506" Clicked="ABAF"/>
+    <Switch x:Name="B511" Toggled="ABBA"/>
+    <Switch x:Name="B512" Toggled="ABBB"/>
+    <Switch x:Name="B513" Toggled="ABBC"/>
+    <!--<CheckBox Checked="AAAA"/>-->
+   </Grid>
+   <Grid x:Name="C100">
+    <Button x:Name="C101" Clicked="C_AA" Text="1"/>
+    <Button x:Name="C102" Clicked="C_AA" Text="2"/>
+    <Button x:Name="C103" Clicked="C_AA" Text="3"/>
+    <Button x:Name="C104" Clicked="C_AA" Text="4"/>
+    <Button x:Name="C105" Clicked="C_AA" Text="5"/>
+    <Button x:Name="C106" Clicked="C_AA" Text="6"/>
+    <Button x:Name="C107" Clicked="C_AA" Text="7"/>
+    <Button x:Name="C108" Clicked="C_AA" Text="8"/>
+    <Button x:Name="C109" Clicked="C_AA" Text="9"/>
+    <Button x:Name="C110" Clicked="C_AA" Text="0"/>
+    <Button x:Name="C111" Clicked="C_AA" Text="e"/>
+    <Button x:Name="C112" Clicked="C_AA" Text="π"/>
+    <Button x:Name="C113" Clicked="C_AA" Text="["/>
+    <Button x:Name="C114" Clicked="C_AA" Text="ǀ"/>
+    <Button x:Name="C115" Clicked="C_AA" Text="|"/>
+    <Button x:Name="C116" Clicked="C_AA" Text="]"/>
+    <Button x:Name="C117" Clicked="C_AB" Text="+"/>
+    <Button x:Name="C118" Clicked="C_AB" Text="*"/>
+    <Button x:Name="C119" Clicked="C_AB" Text="˄"/>
+    <Button x:Name="C120" Clicked="C_AA" Text="∞"/>
+    <Button x:Name="C121" Clicked="C_AC" Text="–"/>
+    <Button x:Name="C122" Clicked="C_AB" Text=":"/>
+    <Button x:Name="C123" Clicked="C_AB" Text="˅"/>
+    <Button x:Name="C124" Clicked="C_AA" Text="Δ"/>
+    <Button x:Name="C125" Clicked="C_AA" Text="-"/>
+    <Button x:Name="C126" Clicked="C_AA"/>
+    <Button x:Name="C127" Clicked="C_AA" Text="´"/>
+    <Button x:Name="C128" Clicked="C_AA" Text="°"/>
+    <Button x:Name="C129" Clicked="C_AA" Text="("/>
+    <Button x:Name="C130" Clicked="C_AA" Text=")"/>
+    <Button x:Name="C131" Clicked="C_AA" Text="!"/>
+    <Button x:Name="C132" Clicked="C_AA" Text="→"/>
+    <Button x:Name="C133" Clicked="C_AD" Text="√"/>
+    <Button x:Name="C134" Clicked="C_AF" Text="Ʃ"/>
+    <Button x:Name="C135" Clicked="C_AF" Text="∏"/>
+    <Button x:Name="C136" Clicked="C_AG" Text="ʃ"/>
+    <Button x:Name="C137" Clicked="C_AE" Text="√'"/>
+    <Button x:Name="C138" Clicked="C_AD" Text="ln"/>
+    <Button x:Name="C139" Clicked="C_AE" Text="lim"/>
+    <Button x:Name="C140" Clicked="C_AE" Text="log"/>
+    <Button x:Name="C141" Clicked="C_AD" Text="cos"/>
+    <Button x:Name="C142" Clicked="C_AD" Text="sin"/>
+    <Button x:Name="C143" Clicked="C_AD" Text="tan"/>
+    <Button x:Name="C144" Clicked="C_AD" Text="cot"/>
+    <Button x:Name="C145" Clicked="C_AD" Text="acos"/>
+    <Button x:Name="C146" Clicked="C_AD" Text="asin"/>
+    <Button x:Name="C147" Clicked="C_AD" Text="atan"/>
+    <Button x:Name="C148" Clicked="C_AD" Text="acot"/>
+
+    <Button x:Name="C149" Clicked="C_AH" IsVisible="False" Text=""/>
+    <Button x:Name="C150" Clicked="C_AH" IsVisible="False" Text="▲"/>
+    <Button x:Name="C151" Clicked="C_AH" IsVisible="False" Text=""/>
+    <Button x:Name="C152" Clicked="C_AH" IsVisible="False" Text="⛭"/>
+    <Button x:Name="C153" Clicked="C_AH" IsVisible="False" Text="◀"/>
+    <Button x:Name="C154" Clicked="C_AH" IsVisible="False" Text="⬜"/>
+    <Button x:Name="C155" Clicked="C_AH" IsVisible="False" Text="▶"/>
+    <Button x:Name="C156" Clicked="C_AH" IsVisible="False" Text="⛯"/>
+    <Button x:Name="C157" Clicked="C_AH" IsVisible="False" Text=""/>
+    <Button x:Name="C158" Clicked="C_AH" IsVisible="False" Text="▼"/>
+    <Button x:Name="C159" Clicked="C_AH" IsVisible="False" Text=""/>
+    <Button x:Name="C160" Clicked="C_AH" IsVisible="False" Text=""/>
+    <Button x:Name="C161" Clicked="C_AH" IsVisible="False" Text=""/>
+    <Button x:Name="C162" Clicked="C_AH" IsVisible="False" Text=""/>
+    <Button x:Name="C163" Clicked="C_AH" IsVisible="False" Text=""/>
+    <Button x:Name="C164" Clicked="C_AH" IsVisible="False" Text=""/>
+   </Grid>
+  </Grid>
+ </Grid>
+ 
+</ContentPage>
