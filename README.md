@@ -17,3 +17,12 @@ a comprehensive computational engine designed to provide formulas, solutions, an
 • Content Expansion: Continuously increasing the library of definition formulas to exponentially grow the available combination possibilities.
 
 • System Refinement: Ongoing error correction, logic validation, and feature enhancement.
+
+**Link References**:
+
+• Android Projekt:
+https://github.com/magomedaliew/calculatorandroid
+
+• Windows Projekt:
+
+Thanks
