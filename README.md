@@ -1,4 +1,6 @@
-**Welcome to Calculator-Worcomputationalhensive computational engine designed to provide formulas, solutions, and step-by-step derivations for Mathematics, Physics, and Chemistry.
+Welcome to Calculator-World,
+
+a comprehensive computational engine designed to provide formulas, solutions, and step-by-step derivations for Mathematics, Physics, and Chemistry.
 
 Core Functionality: Provides access to a massive library of physical and mathematical formulas.
 
