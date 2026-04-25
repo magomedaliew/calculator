@@ -24,5 +24,6 @@ a comprehensive computational engine designed to provide formulas, solutions, an
 https://github.com/magomedaliew/calculatorandroid
 
 • Windows Projekt:
+https://github.com/magomedaliew/calculatorwindow
 
 Thanks
